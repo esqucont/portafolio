@@ -1,3 +1,59 @@
-body{
-    background-color: deeppink;
+
+  
+body {
+    background-color: #FFA07A; /* Fondo blanco */
+    
+    font-family: "Roboto Mono", monospace;
+}
+
+header, nav {
+    background-color: #FFA07A; /* Encabezado y navegación en lila claro */
+    padding: 1em;
+    border-bottom: 1px solid white;
+
+}
+.profile-image {
+    width: 400px; /* Ajusta el tamaño según sea necesario */
+    height: 400px; /* Asegúrate de que sea un cuadrado */
+    border-radius: 50%; /* Hace la imagen redonda */
+    background-color: white; /* Color de fondo lila claro */
+    padding: 10px; /* Añade un poco de espacio alrededor de la imagen */
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente dentro del contenedor redondo */
+}
+
+.text-name{
+    color: white;
+}
+.nav-link {
+    color: black !important; /* Color por defecto del enlace */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+  }
+.nav-link:hover{
+    color: white !important;
+}
+#habilidades .card {
+    background-color: #ffffff; /* Fondo blanco para las tarjetas */
+    border: none; /* Sin bordes para las tarjetas */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    transition: transform 0.2s; /* Suavizar la animación */
+}
+
+#habilidades .card:hover {
+    transform: translateY(-5px); /* Levantar la tarjeta al pasar el ratón */
+}
+
+#habilidades .feature-icon {
+    background-color: #FFA07A; /* Fondo azul para el icono */
+    color: #ffffff; /* Color blanco para el icono */
+    border-radius: 50%; /* Icono redondo */
+    padding: 1rem; /* Espacio interno */
+}
+
+#habilidades h3 {
+    margin-top: 1rem; /* Espacio superior para el título */
+    color: #333; /* Color del texto */
+}
+
+#habilidades .card-text {
+    color: #555; /* Color del texto del párrafo */
 }

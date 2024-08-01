@@ -1,12 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniela Esqueda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
 </head>
+
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mi" class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="assets/perfil.png" class="profile-image" alt="Daniela Esqueda">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-4">
+                        ¡Hola! Soy <span class="text-name">Daniela Esqueda</span>,
+                        <br> Desarrolladora Backend
+                    </h1>
+                    <p>Apasionada por transformar ideas en soluciones tecnológicas innovadoras. Con una fuerte
+                        inclinación por el aprendizaje continuo y la colaboración, me especializo en crear sistemas
+                        robustos y eficientes que optimizan procesos y mejoran la experiencia del usuario. Mi enfoque
+                        está en desarrollar código limpio y escalable, siempre buscando maneras de superar desafíos y
+                        aportar valor real a los proyectos en los que participo. Me encanta trabajar en equipo y
+                        contribuir a un ambiente positivo y productivo. Estoy constantemente motivada por el deseo de
+                        aprender y crecer, tanto profesional como personalmente.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-mint btn-lg px-4 me-md-2">Contáctame</button>
+                        <button type="button" class="btn btn-outline-mint btn-lg px-4">Más información</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container px-4 py-5" id="habilidades">
+            <h2 class="pb-2 border-bottom">Habilidades tecnicas</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div
+                                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 px-3 py-2 rounded m-2">
+                                <i class="bi bi-code-square"></i>
+                            </div>
+                            <h3 class="fs-4 text-body-emphasis">Desarrollo web</h3>
+                            <ul class="card-text">
+                                <li>HTML/CSS</li>
+                                <li>JavaScript</li>
+                                <li>PHP</li>
+                                <li>Laravel</li>
+                                <li>Bootstrap</li>
+                                <li>Escribir código limpio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div
+                                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 px-3 py-2 rounded m-2">
+                                <i class="bi bi-database"></i>
+                            </div>
+                            <h3 class="fs-4 text-body-emphasis">Base de datos</h3>
+                            <ul class="card-text">
+                                <li>SQL</li>
+                                <li>MySQL</li>
+                                <li>SqlSever</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="featurecol">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div
+                                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 px-3 py-2 rounded m-2">
+                                <i class="bi bi-github"></i>
+                            </div>
+                            <h3 class="fs-4 text-body-emphasis">Control de versiones</h3>
+                            <ul class="card-text">
+                                <li>Git</li>
+                                <li>GitHub</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="pb-2 border-bottom">Habilidades blandas</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div
+                                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 px-3 py-2 rounded m-2">
+                                <i class="bi bi-chat-dots"></i>
+                            </div>
+                            <h3 class="fs-4 text-body-emphasis">Comunicación</h3>
+                            <ul class="card-text">
+                                <li>Comunicación efectiva con equipo y clientes</li>
+                                <li>Capacidad de escuchar y comprender necesidades</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature col">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div
+                                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 px-3 py-2 rounded m-2">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="fs-4 text-body-emphasis">Trabajo en Equipo</h3>
+                            <ul class="card-text">
+                                <li>Colaboración efectiva con equipos multidisciplinarios</li>
+                                <li>Habilidad para resolver conflictos de manera constructiva</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="featurecol">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <div
+                                class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 px-3 py-2 rounded m-2">
+                                <i class="bi bi-arrows-move"></i>
+                            </div>
+                            <h3 class="fs-4 text-body-emphasis">Adaptabilidad</h3>
+                            <ul class="card-text">
+                                <li>Capacidad de adaptarse a nuevos entornos y tecnologías</li>
+                                <li>Flexibilidad para ajustar el enfoque según las necesidades del proyecto</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="proyectos" class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom">Proyectos</h2>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div id="proyecto1" class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Título del proyecto</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#geo-fill"></use>
+                                    </svg>
+                                    <small>Ubicación</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <svg class="bi me-2" width="1em" height="1em">
+                                        <use xlink:href="#calendar3"></use>
+                                    </svg>
+                                    <small>Fecha</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repetir para otros proyectos -->
+            </div>
+        </section>
+
+        <section id="testimonios">
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-label="Slide 1" aria-current="true"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="path/to/image1.jpg" class="d-block w-100" alt="Testimonio 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ejemplo de testimonio</h5>
+                            <p>Contenido representativo del primer testimonio.</p>
+                        </div>
+                    </div>
+                    <!-- Repetir para otros testimonios -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0">© 2024 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#twitter"></use>
+                    </svg></a></li>
+            <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#instagram"></use>
+                    </svg></a></li>
+            <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#facebook"></use>
+                    </svg></a></li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
-</html>m
+
+</html>
