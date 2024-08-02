@@ -14,6 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
 </head>
 
 
@@ -178,93 +179,203 @@
             </div>
         </section>
 
-
         <section id="proyectos" class="container px-4 py-5">
             <h2 class="pb-2 border-bottom">Proyectos</h2>
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                <div class="col">
-                    <div id="proyecto1" class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Título del proyecto</h3>
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                        class="rounded-circle border border-white">
-                                </li>
-                                <li class="d-flex align-items-center me-3">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#geo-fill"></use>
-                                    </svg>
-                                    <small>Ubicación</small>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <svg class="bi me-2" width="1em" height="1em">
-                                        <use xlink:href="#calendar3"></use>
-                                    </svg>
-                                    <small>Fecha</small>
-                                </li>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="assets/clongoogle.png" class="card-img-top" alt="Descripción de la imagen">
+                        <div class="card-body">
+                            <h5 class="card-title">Clon de Google</h5>
+                            <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#project1Details" aria-expanded="false" aria-controls="project1Details">
+                                Más detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="collapse" id="project1Details">
+                        <div class="card card-body mt-2 ">
+                            <h6>Tecnologías Utilizadas</h6>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
                             </ul>
+                            <div class="mt-3">
+                                <h6>Desafíos y Soluciones</h6>
+                                <p>Sin utilizar algun externo se recreo la pagina.</p>
+                            </div>
+                            <div class="mt-3">
+                                <h6>Contribuciones</h6>
+                                <p>Pagina creada desde cero por Daniela Esqueda.</p>
+                            </div>
+
+                            <div class="mt-3">
+                                <a href="https://github.com/esqucont/ClonGoogle" class="btn btn-secondary"
+                                    target="_blank">Código Fuente</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Repetir para otros proyectos -->
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="assets/siscoplag.png" class="card-img-top" alt="Descripción de la imagen">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema Siscoplagas</h5>
+                            <button class="btn btn-success" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#project1Details2" aria-expanded="false"
+                                aria-controls="project1Details2">
+                                Más detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="collapse" id="project1Details2">
+                        <div class="card card-body mt-2">
+                            <h6>Tecnologías Utilizadas</h6>
+                            <ul>
+                                <li>Laravel</li>
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            <div class="mt-3">
+                                <h6>Descripción</h6>
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">Este proyecto fue creado para una PyME en crecimiento, con el
+                                        objetivo de optimizar y
+                                        centralizar sus operaciones empresariales. La plataforma de gestión empresarial
+                                        desarrollada permite
+                                        una administración eficiente de los recursos, mejorando la productividad y
+                                        facilitando la toma de
+                                        decisiones estratégicas.
+                                    </p>
+                                </blockquote>
+                            </div>
+                            <div class="mt-3">
+                                <h6>Desafíos y Soluciones</h6>
+                                <p><strong>Desafíos:</strong> Los requerimientos fueron obtenidos directamente del
+                                    cliente, sin documentación previa de procesos. Además, el sistema fue creado por un
+                                    equipo de solo dos personas.</p>
+                                <p><strong>Soluciones:</strong> Mantuvimos comunicación constante con el cliente,
+                                    realizamos entrevistas con empleados para entender los procesos, y utilizamos
+                                    metodologías ágiles para optimizar nuestro trabajo en equipo.</p>
+                            </div>
+                            <div class="mt-3">
+                                <h6>Mis Contribuciones</h6>
+                                <p>Yo realicé diferentes módulos, como: catálogo de clientes, catálogo de productos,
+                                    catálogo de plagas, almacén, calidad, PDF de reportes, referencias para clientes,
+                                    entre otros.</p>
+                            </div>
+
+                            <div class="mt-3">
+                                <a href="https://marabunta.japi.space/" class="btn btn-success" target="_blank">Ver
+                                    Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <section id="testimonios" class="container px-4 py-5">
+            <h2 class="container text-center border-bottom">Testimonios</h2>
+            <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
+                <!-- Indicadores son los puntitos encima que me permiten navegar por los elementos -->
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
-                        aria-label="Slide 1" aria-current="true"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                        class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                        class=""></button>
                 </div>
+
+                <!-- Contenido del carousel -->
                 <div class="carousel-inner">
+
+
                     <div class="carousel-item active">
-                        <img src="path/to/image1.jpg" class="d-block w-100" alt="Testimonio 1">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Ejemplo de testimonio</h5>
-                            <p>Contenido representativo del primer testimonio.</p>
-                        </div>
+                        <article class="container py-5 text-center px-5">
+                            <img class="img-thumbnail w-25 rounded-circle" src="assets/diego.jpeg" height="300"
+                                alt="Diego Domingo">
+                            <h3 class="my-3">DIEGO DOMINGO CHACON RIVERA</h3>
+                            <p>
+                                Trabajar con Daniela Esqueda ha sido una experiencia muy positiva. Es una persona
+                                altamente competente en
+                                la resolución de problemas y muestra una gran pasión por el aprendizaje. Sus habilidades
+                                interpersonales son
+                                excelentes, lo que facilita la interacción con los clientes. Además, tiene una notable
+                                capacidad para
+                                identificar problemas y captar los requisitos de los stakeholders, lo cual se traduce en
+                                análisis detallados
+                                para el desarrollo de proyectos. En nivel de programación, desarrolla codigo de mucho
+                                valor, siempre ofreciendo
+                                soluciones a los diversos problemas.
+                            </p>
+                        </article>
                     </div>
-                    <!-- Repetir para otros testimonios -->
+
+                    <div class="carousel-item">
+                        <article class="container py-5 text-center px-5">
+                            <img class="rounded-5" src="" height="300" alt="Pedro Aldo Villeda">
+                            <h3 class="my-3"></h3>
+                            <p>
+                            </p>
+                        </article>
+                    </div>
+
+                    <div class="carousel-item">
+                        <article class="container py-5 text-center px-5">
+                            <img class="rounded-5" src="" height="300" alt="">
+                            <h3 class="my-3"></h3>
+                            <p></p>
+                        </article>
+                    </div>
+
                 </div>
+
+                <!-- Botones que son las flechitas para pasar de diapositiva (slide) -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Siguiente</span>
+                    <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </section>
+
+
     </main>
 
-    <footer id="contacto" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-            </a>
-            <span class="mb-3 mb-md-0">© 2024 Company, Inc</span>
-        </div>
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24">
-                        <use xlink:href="#twitter"></use>
-                    </svg></a></li>
-            <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24">
-                        <use xlink:href="#instagram"></use>
-                    </svg></a></li>
-            <li class="ms-3"><a href="#"><svg class="bi" width="24" height="24">
-                        <use xlink:href="#facebook"></use>
-                    </svg></a></li>
-        </ul>
+    </main>
+    <footer id="contacto">
+        <div class="bg-black px-4 py-5 text-center">
+            <div class="py-5">
+                <div class="col-lg-6 mx-auto">
+                    <p class="fs-5 mb-4"></p>
+
+                    <div id="iconos" class="d-flex justify-content-center gap-3">
+                        <a href="https://github.com/esqucont" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github icono-contacto"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/daniela-esqueda/" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-linkedin icono-contacto"></i>
+                        </a>
+                        <a href="mailto:daniela.esqucont@outlook.com" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-envelope icono-contacto"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <h6 id="derechos-de-autor">Creado por Daniela Esqueda (2024) - Technolochicas PRO</h6>
+            <h8><i class="icono-telefono"> (444)2144509 </i> </h8>
+        </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
